@@ -23,6 +23,8 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
-    hot: true
+    host: '192.168.1.226',
+    port:8080,
+    disableHostCheck: true
   }
 };
